@@ -23,7 +23,7 @@ final class PopperAsset extends AssetBundle
         $assetPopper = YII_ENV === 'prod' ? ['popper.min.js'] : ['popper.js'];
         $assetPopperMap = YII_ENV === 'prod' ? ['popper.min.js.map'] : ['popper.js.map'];
 
-        $this->css = $assetPopper;
+        $this->js = $assetPopper;
         $this->publishOptions['only'] = array_merge($assetPopper, $assetPopperMap);
     }
 }
