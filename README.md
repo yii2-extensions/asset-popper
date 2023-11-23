@@ -42,7 +42,7 @@ or add
 
 to the require-dev section of your `composer.json` file. 
 
-## Basic Usage
+## Basic usage
 
 ```php
 <?php
@@ -54,7 +54,7 @@ use Yii2\Asset\PopperAsset;
 PopperAsset::register($this);
 ```
 
-## CDN Usage
+## CDN usage
 
 ```php
 <?php
