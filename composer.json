@@ -14,7 +14,7 @@
         "php": ">=8.1",
         "npm-asset/popperjs--core": "^2.11",
         "oomphinc/composer-installers-extender": "^2.0",
-        "yiisoft/yii2": "^2.2"
+        "yiisoft/yii2": "*"
     },
     "require-dev": {
         "maglnet/composer-require-checker": "^4.6",
