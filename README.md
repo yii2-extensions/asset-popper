@@ -30,17 +30,17 @@ The preferred way to install this extension is through [composer](https://getcom
 
 Either run
 
-```
-composer require --dev --prefer-dist yii2-extensions/asset-popper
+```shell
+composer require --prefer-dist yii2-extensions/asset-popper:^0.1
 ```
 
 or add
 
-```
-"yii2-extensions/asset-popper": "dev-main"
+```json
+"yii2-extensions/asset-popper": "^0.1"
 ```
 
-to the require-dev section of your `composer.json` file. 
+to the require section of your `composer.json` file. 
 
 ## Basic usage
 
@@ -79,7 +79,7 @@ PopperCdnAsset::register($this);
 
 ## Testing
 
-[Check the documentation testing](/docs/testing.md) to learn about testing.
+[Check the documentation testing](docs/testing.md) to learn about testing.
 
 ## Our social networks
 
@@ -87,4 +87,4 @@ PopperCdnAsset::register($this);
 
 ## License
 
-The MIT License. Please see [License File](LICENSE.md) for more information.
+The MIT License. Please see [License File](LICENSE) for more information.

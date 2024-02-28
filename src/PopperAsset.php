@@ -11,9 +11,6 @@ use yii\web\AssetBundle;
  */
 final class PopperAsset extends AssetBundle
 {
-    /**
-     * @inheritDoc
-     */
     public $sourcePath = '@npm/popperjs--core/dist/umd';
 
     public function init(): void

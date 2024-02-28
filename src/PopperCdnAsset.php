@@ -12,8 +12,6 @@ use yii\web\AssetBundle;
 final class PopperCdnAsset extends AssetBundle
 {
     /**
-     * @inheritDoc
-     *
      * @phpstan-var array<array-key, mixed>
      */
     public $js = [
@@ -21,8 +19,6 @@ final class PopperCdnAsset extends AssetBundle
     ];
 
     /**
-     * @inheritDoc
-     *
      * @phpstan-var array<array-key, mixed>
      */
     public $jsOptions = [
